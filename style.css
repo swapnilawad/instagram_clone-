@@ -1,40 +1,55 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(218, 218, 218);
 
 }
-/* .container{
-    padding: 5px;
-} */
-.navbar{
-    
-    padding:0.5rem;
+
+.container {
+    margin-bottom: 15px;
+}
+
+
+
+.navbar {
+
+    padding: 0.5rem;
     border: 2px solid black;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     background-color: antiquewhite;
-    
+
 }
+
 .logo p {
     font-size: 25px;
 }
-.nav-iteam{
-    width:80%;
+
+.nav-iteam {
+    width: 80%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
+
 .menu-img {
     width: 1.5rem;
     height: 1.5rem;
 }
-.menu{
+
+.menu {
     margin: 5px;
     display: flex;
     column-gap: 1.5rem;
 }
-.notification{
+
+.notification {
     border: 2px solid black;
     display: flex;
     height: 5vh;
@@ -42,10 +57,12 @@
     align-items: center;
     justify-content: center;
 }
-.top-section{
+
+.top-section {
     display: flex;
 }
-.story_section{
+
+.story_section {
     margin-top: 1rem;
     margin-left: 15rem;
     width: 400px;
@@ -59,40 +76,92 @@
     text-align: center;
     padding: 0.8rem;
 }
+
 .story-box img {
     width: 60px;
 }
-.post-section{
+
+.post_template {
+    row-gap: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+.post-section {
     border: 2px solid black;
+
     width: 407px;
+    height: 85vh;
     padding: 10px;
     border-radius: 10px;
     margin-left: 15rem;
-    margin-top: 10px;
-}
-.post{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    
-}
-.action-button{
-    display: flex;
-    column-gap:25px;
-    
-   
-}
-.action-right{
-    margin-left: 15rem;
+    margin-top: -80px;
+    overflow: hidden;
 
 }
-.user-section{
+
+.post_user {
+    border: 1px solid black;
+    height: 5vh;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.post_user p {
+    padding: 2px;
+    margin: 10px;
+}
+
+.post {
+    border: 1px solid black;
+    width: 100%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-   
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+
 }
-.user_box{
+
+.post img {
+    width: 400px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.action-button {
+    margin-top: 10px;
+    display: flex;
+    column-gap: 25px;
+    border: 1px solid black;
+
+
+}
+
+.action-right {
+    margin-left: 14.5rem;
+
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+
+    margin-top: 10px;
+}
+
+.user-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user_box {
     margin-top: 1rem;
     margin-left: 5rem;
     width: 400px;
@@ -100,27 +169,52 @@
     border: 2px solid black;
     border-radius: 10px;
     padding: 0.8rem;
-   
+
     justify-content: space-around;
     align-items: center;
 
 }
-.suggestion-section{
+
+.suggestion-section {
+    /* border: 2px solid black; */
     display: flex;
-    
+
     margin-left: 5rem;
     border-radius: 10px;
     padding: 0.8rem;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+  
 }
-.suggestion-box{
+
+.suggestion-box {
+    /* border: 2px solid black; */
+    padding: 5px;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     column-gap: 5px;
+    row-gap: 20px;
 }
-.follow-user{
+
+.follow-user {
     display: flex;
+    float: left;
+    column-gap: 35px;
+    
+    /* border: 2px solid black; */
+
 }
 
-
+.Refresh{
+    
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Refresh img{
+    cursor: pointer;
+    width: 50px;
+   
+}

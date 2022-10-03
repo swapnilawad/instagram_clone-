@@ -50,12 +50,18 @@
     display: flex;
     column-gap: 1.5rem;
 }
+.search input {
+    height: 5vh;
+    width: 17vw;
+    border-radius: 4px;
+}
 
 .notification {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     height: 3vh;
-    background-color: aqua;
+    margin-top: 5px;
+    /* background-color: aqua; */
     align-items: center;
     justify-content: center;
 }

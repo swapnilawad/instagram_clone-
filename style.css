@@ -31,7 +31,9 @@
 
 .logo p {
     font-size: 25px;
-}
+    font-family: 'Dancing Script', cursive;
+    }
+
 
 .nav-iteam {
     width: 80%;
